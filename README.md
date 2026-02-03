@@ -3,7 +3,7 @@ Active Directory Security Monitoring Lab
 
 Password Spraying & Privilege Escalation Detection
 
-📌 Project Description
+## Project Description
 
 This project demonstrates a hands-on Blue Team / SOC monitoring lab focused on detecting and analyzing common Active Directory attack techniques using native Windows Security logs.
 The lab simulates realistic attack scenarios against an Active Directory environment and documents how suspicious activity can be identified, correlated, and mitigated based on event log analysis.
@@ -21,6 +21,7 @@ Client: Windows 10
 Authentication: Kerberos
 Logging: Windows Security Auditing enabled via GPO
 
+```
 Active Directory Structure
 LAB.LOCAL
 ├── IT
@@ -29,6 +30,7 @@ LAB.LOCAL
 ├── HR
 ├── SOC
 └── ServiceAccounts
+```
 
 Domain users and security groups configured to simulate a small enterprise environment
 Group Policies applied for password policy, auditing, and security hardening
